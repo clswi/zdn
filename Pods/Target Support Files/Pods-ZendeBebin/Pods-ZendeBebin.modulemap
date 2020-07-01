@@ -1,6 +1,0 @@
-module Pods_ZendeBebin {
-  umbrella header "Pods-ZendeBebin-umbrella.h"
-
-  export *
-  module * { export * }
-}
