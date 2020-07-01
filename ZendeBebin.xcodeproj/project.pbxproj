@@ -29,13 +29,6 @@
 		30E6E006237E9527001E6691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E6E005237E9527001E6691 /* Assets.xcassets */; };
 		30E6E009237E9527001E6691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E6E007237E9527001E6691 /* LaunchScreen.storyboard */; };
 		30E9A8A223FB1FA500CEB684 /* dradioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E9A8A123FB1FA500CEB684 /* dradioVC.swift */; };
-		30EDA3D62405C76B0021282E /* Buy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EDA3D52405C76B0021282E /* Buy.swift */; };
-		30EDA3D82405C7790021282E /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EDA3D72405C7790021282E /* Reactive.swift */; };
-		30EDA3DA2405C78F0021282E /* Redeem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EDA3D92405C78F0021282E /* Redeem.swift */; };
-		30EDA3DE240672C50021282E /* AMLicense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EDA3DB240672C50021282E /* AMLicense.swift */; };
-		30EDA3DF240672C50021282E /* certificate.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 30EDA3DC240672C50021282E /* certificate.p12 */; };
-		30EDA3E0240672C50021282E /* KeychainSwiftDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EDA3DD240672C50021282E /* KeychainSwiftDistrib.swift */; };
-		30EDA4082409290D0021282E /* licenseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EDA4072409290D0021282E /* licenseVC.swift */; };
 		30FF57E3237FE8E000C01E05 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF57E2237FE8E000C01E05 /* MainVC.swift */; };
 		30FF57EA237FF5D200C01E05 /* MovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF57E9237FF5D200C01E05 /* MovieVC.swift */; };
 		30FF57ED237FF6B200C01E05 /* colCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF57EC237FF6B200C01E05 /* colCell.swift */; };
@@ -68,13 +61,6 @@
 		30E6E008237E9527001E6691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30E6E00A237E9527001E6691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30E9A8A123FB1FA500CEB684 /* dradioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dradioVC.swift; sourceTree = "<group>"; };
-		30EDA3D52405C76B0021282E /* Buy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buy.swift; sourceTree = "<group>"; };
-		30EDA3D72405C7790021282E /* Reactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reactive.swift; sourceTree = "<group>"; };
-		30EDA3D92405C78F0021282E /* Redeem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redeem.swift; sourceTree = "<group>"; };
-		30EDA3DB240672C50021282E /* AMLicense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMLicense.swift; sourceTree = "<group>"; };
-		30EDA3DC240672C50021282E /* certificate.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = certificate.p12; sourceTree = "<group>"; };
-		30EDA3DD240672C50021282E /* KeychainSwiftDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainSwiftDistrib.swift; sourceTree = "<group>"; };
-		30EDA4072409290D0021282E /* licenseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = licenseVC.swift; sourceTree = "<group>"; };
 		30FF57E2237FE8E000C01E05 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		30FF57E9237FF5D200C01E05 /* MovieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVC.swift; sourceTree = "<group>"; };
 		30FF57EC237FF6B200C01E05 /* colCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colCell.swift; sourceTree = "<group>"; };
@@ -147,7 +133,6 @@
 				30E6E000237E9525001E6691 /* ViewController.swift */,
 				30FF57E2237FE8E000C01E05 /* MainVC.swift */,
 				30C7B34B23E2DDB600FE0AB5 /* AboutVC.swift */,
-				30EDA3D42405C7570021282E /* License */,
 				30FF57EB237FF69700C01E05 /* Cells */,
 				301E7B8E2394474D009A215F /* Radio */,
 				30FF57E8237FF5B900C01E05 /* Movie */,
@@ -157,20 +142,6 @@
 				30E6E00A237E9527001E6691 /* Info.plist */,
 			);
 			path = ZendeBebin;
-			sourceTree = "<group>";
-		};
-		30EDA3D42405C7570021282E /* License */ = {
-			isa = PBXGroup;
-			children = (
-				30EDA3DB240672C50021282E /* AMLicense.swift */,
-				30EDA4072409290D0021282E /* licenseVC.swift */,
-				30EDA3DC240672C50021282E /* certificate.p12 */,
-				30EDA3DD240672C50021282E /* KeychainSwiftDistrib.swift */,
-				30EDA3D52405C76B0021282E /* Buy.swift */,
-				30EDA3D72405C7790021282E /* Reactive.swift */,
-				30EDA3D92405C78F0021282E /* Redeem.swift */,
-			);
-			path = License;
 			sourceTree = "<group>";
 		};
 		30FF57E8237FF5B900C01E05 /* Movie */ = {
@@ -278,7 +249,6 @@
 				30E6E006237E9527001E6691 /* Assets.xcassets in Resources */,
 				306A1129238A705F000E6C62 /* MobileFonts.png in Resources */,
 				306A1127238A705F000E6C62 /* IRANYekanMobileRegular.ttf in Resources */,
-				30EDA3DF240672C50021282E /* certificate.p12 in Resources */,
 				3014FD6823E18C0E009A4683 /* IRANSansMobile.ttf in Resources */,
 				306A1128238A705F000E6C62 /* IRANYekanMobileBold.ttf in Resources */,
 				30E6E004237E9525001E6691 /* Main.storyboard in Resources */,
@@ -318,12 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				30E9A8A223FB1FA500CEB684 /* dradioVC.swift in Sources */,
-				30EDA3DA2405C78F0021282E /* Redeem.swift in Sources */,
 				30C7B34C23E2DDB600FE0AB5 /* AboutVC.swift in Sources */,
 				30DCE7C3238003ED0081772B /* SerialVC.swift in Sources */,
 				30E6E001237E9525001E6691 /* ViewController.swift in Sources */,
-				30EDA3D62405C76B0021282E /* Buy.swift in Sources */,
-				30EDA4082409290D0021282E /* licenseVC.swift in Sources */,
 				301E7B902394477A009A215F /* RadioVC.swift in Sources */,
 				30DCE7C5238008CB0081772B /* TvVC.swift in Sources */,
 				30FF57EA237FF5D200C01E05 /* MovieVC.swift in Sources */,
@@ -331,11 +298,8 @@
 				30FF57E3237FE8E000C01E05 /* MainVC.swift in Sources */,
 				30FF57ED237FF6B200C01E05 /* colCell.swift in Sources */,
 				309EF3242391311300BB4889 /* PartsVC.swift in Sources */,
-				30EDA3DE240672C50021282E /* AMLicense.swift in Sources */,
 				306A112D238A8E7E000E6C62 /* DMovieVC.swift in Sources */,
-				30EDA3E0240672C50021282E /* KeychainSwiftDistrib.swift in Sources */,
 				309EF31C238AA9D300BB4889 /* CustomTabBarItem.swift in Sources */,
-				30EDA3D82405C7790021282E /* Reactive.swift in Sources */,
 				309EF31E238D091000BB4889 /* EpisodesVC.swift in Sources */,
 				30E6DFFD237E9525001E6691 /* AppDelegate.swift in Sources */,
 			);
@@ -490,7 +454,7 @@
 				DEVELOPMENT_TEAM = 62URTUTE98;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ZendeBebin/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -517,7 +481,7 @@
 				DEVELOPMENT_TEAM = 62URTUTE98;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ZendeBebin/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

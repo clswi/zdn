@@ -10,9 +10,7 @@ import UIKit
 
 class AboutVC: UIViewController {
 
-    @IBAction func eject(_ sender: Any) {
-        AMLicense().logOut()
-    }
+
     @IBAction func close(_ sender: Any) {
         dismiss(animated: true, completion: nil)
         

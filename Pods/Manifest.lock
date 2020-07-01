@@ -1,11 +1,10 @@
 PODS:
   - Alamofire (4.9.1)
   - AVPlayerViewController-Subtitles (1.3.0)
-  - Kingfisher (5.13.0):
-    - Kingfisher/Core (= 5.13.0)
-  - Kingfisher/Core (5.13.0)
+  - Kingfisher (5.14.0):
+    - Kingfisher/Core (= 5.14.0)
+  - Kingfisher/Core (5.14.0)
   - MKProgress (1.1.0)
-  - ReachabilitySwift (5.0.0)
   - TapticEngine (1.2.0)
 
 DEPENDENCIES:
@@ -13,7 +12,6 @@ DEPENDENCIES:
   - AVPlayerViewController-Subtitles
   - Kingfisher
   - MKProgress (~> 1.1.0)
-  - ReachabilitySwift
   - TapticEngine
 
 SPEC REPOS:
@@ -22,17 +20,15 @@ SPEC REPOS:
     - AVPlayerViewController-Subtitles
     - Kingfisher
     - MKProgress
-    - ReachabilitySwift
     - TapticEngine
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   AVPlayerViewController-Subtitles: d0229e9d215c65f8577f641a6e981e62bb54f0b9
-  Kingfisher: 0d334cada987fcddbe9b5cec516406e1ee9d4748
+  Kingfisher: 7b64389a43139c903ec434788344c288217c792d
   MKProgress: 260d166200323f3d991190a73ab2dc3a04b0f52f
-  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   TapticEngine: ed6f5b4a2e9aa46d4e8fa69a72a7a0b6719bf8ac
 
-PODFILE CHECKSUM: a2bf0689bab2fa24c59a7df2562a9363fc06b6ac
+PODFILE CHECKSUM: 7b898e97d04700bb7d6a27f3d137a714a50c5596
 
 COCOAPODS: 1.9.0.beta.3
